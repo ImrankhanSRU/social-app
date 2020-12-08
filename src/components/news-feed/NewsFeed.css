@@ -57,3 +57,29 @@
 .post-btn:hover:enabled {
     opacity: 0.9;
 }
+
+@media only screen and (max-width: 600px) {
+    .post-input {
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .header {
+        box-sizing: border-box;
+    }
+
+    .post-btn {
+        float: right;
+        margin-bottom: 2vh;
+    }
+
+    .news-feed-container  {
+        width: 80%;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+}
