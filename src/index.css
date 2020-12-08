@@ -29,3 +29,9 @@ code {
 .primary-btn:hover:enabled {
   opacity: 0.9;
 }
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

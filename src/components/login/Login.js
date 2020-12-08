@@ -9,11 +9,11 @@ export default function Login() {
     let [password, setpassword] = useState('')
     return (
         <div className="login-container">
-            <div className="header">
+            <div className="login-header">
                 Login
-        </div>
-            <input placeholder="User Name" value={userName} onChange={(e) => { setUserName(e.target.value) }} />
-            <input type="password" placeholder="Password" value={password} onChange={(e) => { setpassword(e.target.value) }} />
+            </div>
+            <input className = "text-input" placeholder="User Name" value={userName} onChange={(e) => { setUserName(e.target.value) }} />
+            <input className = "text-input" type="password" placeholder="Password" value={password} onChange={(e) => { setpassword(e.target.value) }} />
             <button className="primary-btn" disabled={!(userName.length && password.length)}
                 onClick={() => history.push('/newsfeed')}>
                 Login
